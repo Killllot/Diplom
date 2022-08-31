@@ -9,37 +9,18 @@ body{
 .wrapper {
 
 }
-.container {
 
+body::-webkit-scrollbar {
+    width: 12px;
 }
-nav {
-    display: flex;
-    width: 97%;
-    padding: 10px;
-}
-nav > div {
-    flex: 1;
-    color: rgba(255, 255, 255, 0.7);
-    text-align: center;
-    font-size: 25px;
-    padding: 6px 10px 1px 10px;
-    vertical-align: center;
 
+body::-webkit-scrollbar-track {
+    background: rgb(24, 24, 24);
 }
-nav > div:hover {
-    color: rgb(255, 255, 255);
-    cursor: pointer;
 
-}
-main {
-    width: 80%;
-    font-size: 24px;
-    padding: 10px;
-    margin: 10px auto;
-    line-height: 1.5;
-}
-footer {
-    position: fixed;
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(242, 249, 242, 0.46);
+    border-radius: 20px;
 }
 
 .back-to-top {
@@ -54,6 +35,7 @@ footer {
     background-color: rgb(46, 50, 65);
 
     display: none;
+
 }
 .back-to-top:hover,
 .back-to-top:focus {
